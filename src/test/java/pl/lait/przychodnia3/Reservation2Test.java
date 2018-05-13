@@ -16,7 +16,7 @@ public class Reservation2Test {
 		driver = Init.getDriver();
 
 	}
-
+	@Ignore
 	@Test
 	public void loginWithPageObjects() {
 		Init.log("Test z logowniaem i wypełnieniem formularza" + "rezerwacja lotu");
